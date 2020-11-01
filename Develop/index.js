@@ -1,3 +1,4 @@
+// enable use of file system module and inquirer package
 const fs = require("fs");
 const inquirer = require("inquirer");
 
@@ -23,7 +24,15 @@ const questions = [
         name: "description",
         message: "Describe your project"
     },
+    {
+        type: "list",
+        name: "installation",
+        message: "Which license should your project have?",
+        choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"],
+        default: "None"
+    },
     
+
 ];
 
 // function to write README file

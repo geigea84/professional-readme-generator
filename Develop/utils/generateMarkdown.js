@@ -11,12 +11,23 @@ function generateMarkdown(data) {
   * Installation
 
   * Usage
+  //license link here
 
   * Contributing
 
   * Tests
 
   * Questions
+
+  ## Installation
+
+  ## Usage
+
+  ## Contributing
+
+  ## Tests
+
+  ## Questions
 `;
 }
 
