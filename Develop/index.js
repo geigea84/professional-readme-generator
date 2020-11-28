@@ -69,8 +69,17 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-
-}
+    //run inquirer and insert const questions array
+    inquirer.prompt(questions)
+    //asynchronous callback to return promise(pass in new parameter)
+    .then((inquirerResponses) => {
+        console.log("Generating README...");
+        //call writeToFile function, insert arguments
+        /* ... = rest operator, allows for an indefinite number of arguments, 
+        also called functions of variable arity or variadic functions */
+        writeToFile("README.md", generateMarkdown({...inquirerResponses}));
+    })
+};
 
 // function call to initialize program
 init();
