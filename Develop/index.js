@@ -1,6 +1,10 @@
 // enable use of file system module and inquirer package
 const fs = require("fs");
 const inquirer = require("inquirer");
+const path = require("path");
+
+//require connection to generateMarkdown file
+const generateMarkdown = require("./utils/generateMarkdown");
 
 // array of questions for user
 const questions = [
@@ -32,9 +36,27 @@ const questions = [
         default: "None"
     },
     {
-        
+        type: "input",
+        name: "installation",
+        message: "What command should be run to install dependencies?",
+        default: "npm i"
+    },
+    {
+        type: "input",
+        name: "test",
+        message: "What command should be run to run tests?",
+        default: "npm test"
+    },
+    {
+        type: "input",
+        name: "usage",
+        messgae: "What does the user need to know about using the repo?"
+    },
+    {
+        type: "input",
+        name: "contributing",
+        message: "What does the user need to know about contributing to the repo?"
     }
-
 ];
 
 // function to write README file
