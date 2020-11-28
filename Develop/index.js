@@ -61,7 +61,11 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
-}
+    //fs.writeFileSync() creates a new file if the specified file does not exist
+    //path.join() method joins the specified path segments into one path
+    //process.cwd() returns the current working directory
+    return fs.writeFileSync(path.join(process.cwd(), fileName), data);
+};
 
 // function to initialize program
 function init() {
