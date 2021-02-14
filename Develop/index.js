@@ -50,7 +50,7 @@ const questions = [
     {
         type: "input",
         name: "usage",
-        messgae: "What does the user need to know about using the repo?"
+        message: "What does the user need to know about using the repo?"
     },
     {
         type: "input",
