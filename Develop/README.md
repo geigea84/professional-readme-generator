@@ -2,7 +2,7 @@
   //license badge here
 
   ## Description
-    Note-Taker is a note taking application that allows you to jot down a note's title and a quick description, on saving it will populate in your to-do list, where it will remain (even if the page is closed or refreshed) until deleted.
+    test
 
   ## Table of Contents
 
@@ -19,7 +19,7 @@
   * [Questions](#questions)
     
   ## Installation
-    None
+    npm i
   ## Usage
     
   ## License
@@ -27,8 +27,8 @@
   ## Contributing
     
   ## Tests
-    node index.js
+    npm test
   ## Questions
-    Feel free to email me at geigea84@gmail.com with any questions.
+  Feel free to email me at geigea84@gmail.com with any questions.
     
-    More of my work can be viewed on [GitHub](https://github.com/geigea84).
+  More of my work can be viewed on [GitHub](https://github.com/geigea84).

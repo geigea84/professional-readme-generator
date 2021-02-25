@@ -33,9 +33,9 @@ function generateMarkdown(data) {
   ## Tests
     ${data.test}
   ## Questions
-    Feel free to email me at ${data.email} with any questions.
+  Feel free to email me at ${data.email} with any questions.
     
-    More of my work can be viewed on [GitHub](https://github.com/${data.github}).
+  More of my work can be viewed on [GitHub](https://github.com/${data.github}).
 `;
 }
 
