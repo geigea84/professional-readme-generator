@@ -47,7 +47,7 @@
 
   More of my work can be seen here [github/geigea84](https://github.com/geigea84/).
 
-===================================================================================
+//==========
 
 AS A developer
 I WANT a README generator
