@@ -63,8 +63,8 @@ const questions = [
 function writeToFile(fileName, data) {
     //fs.writeFileSync() creates a new file if the specified file does not exist
     //path.join() method joins the specified path segments into one path
-    //process.cwd() returns the current working directory
-    return fs.writeFileSync(path.join(process.cwd(), fileName), data);
+    //file writes to newREADME directory
+    return fs.writeFileSync(path.join('./newREADME', fileName), data);
 };
 
 // function to initialize program
