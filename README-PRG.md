@@ -1,7 +1,7 @@
 
-  # readme generator
+  # Readme Generator
   
-  ![License Badge](https://img.shields.io/badge/license-MIT-blue.svg)
+  ![License Badge](https://img.shields.io/badge/license-undefined-blue.svg)
 
   ## Description
 
@@ -31,7 +31,7 @@
 
   ## License
 
-  This application is covered under the MIT license.
+  This application is covered under the undefined license.
 
   ## Contributing
 

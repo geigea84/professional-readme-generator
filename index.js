@@ -20,7 +20,7 @@ const questions = [
     },
     {
         type: "input",
-        name: "name",
+        name: "title",
         message: "What is the name of your project?"
     },
     {
@@ -30,7 +30,7 @@ const questions = [
     },
     {
         type: "list",
-        name: "installation",
+        name: "license",
         message: "Which license should your project have?",
         choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"],
         default: "None"
@@ -74,6 +74,7 @@ function init() {
     //asynchronous callback to return promise(pass in new parameter)
     .then((inquirerResponses) => {
         console.log("Generating README...");
+        setTimeout(() => { console.log("Done"); }, 1000);
         //call writeToFile function, insert arguments
         /* ... = rest operator, allows for an indefinite number of arguments, 
         also called functions of variable arity or variadic functions */
